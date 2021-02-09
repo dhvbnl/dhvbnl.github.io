@@ -19,7 +19,7 @@ window.inAction = 1;
 window.allowSlide = 1;
 window.blockScroll = 1;
 window.effectOffset = 500;
-window.effectSpeed = 1000;
+window.effectSpeed = 3000;
 window.slideSpeed = 1000;
 window.cleanupDelay = 1400;
 window.horizontalMode = 0;
@@ -2158,5 +2158,3 @@ if (window.isLinux){$html.addClass('linux');}
 //Retina
 window.isRetina = ((window.matchMedia && (window.matchMedia('only screen and (min-resolution: 124dpi), only screen and (min-resolution: 1.3dppx), only screen and (min-resolution: 48.8dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 2.6/2), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (min-device-pixel-ratio: 1.3)').matches)) || (window.devicePixelRatio && window.devicePixelRatio > 1.3));
 if (window.isRetina){$html.addClass('retina');};
-
-
