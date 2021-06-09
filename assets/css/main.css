@@ -169,7 +169,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 1000;
 	}
 
 	em, i {
@@ -1775,6 +1775,7 @@ input, select, textarea {
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
+		margin-left: -1em;
 	}
 
 		header.major > :first-child {
@@ -2783,23 +2784,23 @@ input, select, textarea {
 			}
 
 			.tiles article:before {
-				-moz-transition: opacity 0.5s ease;
-				-webkit-transition: opacity 0.5s ease;
-				-ms-transition: opacity 0.5s ease;
-				transition: opacity 0.5s ease;
+				-moz-transition: opacity 0.75s ease;
+				-webkit-transition: opacity 0.75s ease;
+				-ms-transition: opacity 0.75s ease;
+				transition: opacity 0.75s ease;
 				bottom: 0;
 				content: '';
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 1;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
 			}
 
 			.tiles article:after {
-				background-color: rgba(36, 41, 67, 0.25);
+				background-color: rgba(36, 41, 67, 0.05);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3145,6 +3146,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
+				border-radius: 2px;
 				color: #242943;
 				display: inline-block;
 				line-height: 1.65em;
@@ -3415,7 +3417,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.75;
 			position: absolute;
 			top: 0;
 			width: 100%;
